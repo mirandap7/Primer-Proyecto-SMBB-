@@ -1,0 +1,59 @@
+body{
+    /*color de fondo*/
+    background-color: rgb(120, 146, 180);
+}
+h1{
+    color:rgb(255, 255, 255);
+    text-align: center;
+    font-family:"Source Sans 3", sans-serif ;  
+    font-size: 100px;
+}
+h3{
+    color:rgb(59, 10, 99);
+    text-align: left; 
+    font-family: "Rubik", sans-serif;  
+}
+#portada{
+  height: 750px;
+  border-radius: 15px;
+  align-items: center;
+  justify-content: center;
+  
+}
+#kefir{
+  height: 1000%;
+  width: 50%;
+ 
+}
+#muestra{
+  height: 1000%;
+  width: 50%;
+  object-fit: cover;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+a:hover{
+    background-color: rgb(69, 43, 90);
+    color: rgb(109, 109, 90);
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.log{
+    width: 25%;
+    margin-right: 30px;
+    margin-left: 500%;
+}
